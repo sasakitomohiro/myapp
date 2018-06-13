@@ -6,6 +6,8 @@ target 'MyApp' do
   use_frameworks!
 
   # Pods for MyApp
+  pod 'R.swift'
+  pod "DeployGateSDK"
 
   target 'MyAppTests' do
     inherit! :search_paths
